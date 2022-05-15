@@ -2,7 +2,7 @@ function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",
     Username: "pullbackisinevitable@gmail.com",
-    Password: "EG5zsYbAx2p7G4",
+    Password: "password",
     To: "alexrfrontdev@gmail.com",
     From: document.getElementById("email").value,
     Subject: "New Contact Form Enquiry",
